@@ -25,7 +25,7 @@ list(APPEND CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake")
 #
 # check dependencies
 #
-find_package(PkgConfig REQUIRED)
+#find_package(PkgConfig REQUIRED)
 
 set(THREADS_PREFER_PTHREAD_FLAG ON)
 find_package(Threads REQUIRED)
